@@ -1,0 +1,43 @@
+# = comentario
+caso algo de errado va no prompt do anaconda e tente instalar o selenium
+comando: pip install selenium
+WEBDRIVE DO GOOGLE:
+    # isso é uma automação com o python, automatizando uma tarefa utilizando o Xpath
+     necessário baixar o webdriver atual
+    link = https://chromedriver.chromium.org/downloads
+
+    #la você vai pegar a versão que condiz com o seu pc no meu eu peguei o 92.
+    #mas pode ser que o seu seja, diferente nesse caso click nos 3 pontos no canto superior direito
+    -va em ajuda e em (acerca do google chrome) ou voce pode entrar nesse link(chrome://settings/help)
+
+    #que pode funcionar tambem.
+    -la você vai ver a sua versão do google se possível atualize-a
+
+    -caso sua versão seja a 92 ou 82 ou 73 ou 100 tanto faz, va no primeiro chromedrive que começe com o seu numero
+    #não precisa ser totalmente igual, apenas precisa começar com o mesmo numero,baixe-a,
+
+    -você não precisa descompactar a pasta, apenas de ctrl+c ou x no webdriver para copiar-lo
+    -e então você vai colocar esse arquivo no local onde esta instalado o pyhton o seu computador
+    #se você tem o anaconda e o jupyter no seu pc talvez seja proximo ou igual ao local onde eu coloquei o meu
+    #caso contrario talvez não
+
+    va no disco (C:) ou OS(C:) e va em usuários dentro do seu usuário/nome User,
+    e la dento tera uma pasta anaconda3 va nela
+    #recomendo baixar o jupyter anaconda é bom
+
+    la dentro voce vai procurar o arq. python.exe e se tiver-la cole o driver do lado dele(na pasta)
+    e pronto
+
+     para você ver o Xpath voce pode usar a tecla f12 e depois ctrl + shift + c
+     ou ctrl + shift + i, porém, a melhor opção é ctrl + shift + c, pois
+     ja coloca as informações no mouse facilitando na hora de procurar o xpath
+
+WEBDRIVER DO FIREFOX:
+    link do gekodriver: https://github.com/mozilla/geckodriver/releases
+    essa é a unica diferença o site, então você vai fazer os mesmos passos do chrome
+
+
+SELENIUM:
+    caos você queira saber todos os comandos do selenium
+    link; https://selenium-python.readthedocs.io/
+    é complicado, então, o minimo que você precisa ser é um bom leitor.
