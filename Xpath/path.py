@@ -1,5 +1,5 @@
 from selenium import webdriver
-#abre o navegador automaticamente não se preucupe com a mensagem dizendo que ele esta sendo controlado.
+#abre o navegador automaticamente não se preocupe com a mensagem dizendo que ele esta sendo controlado.
 # ate porque é você quem esta o controlando.
 navegador = webdriver.Chrome()
 # coloque o site que ele vai abrir. Exemplo: https://ri.magazineluiza.com.br/
@@ -18,5 +18,5 @@ navegador.find_element_by_xpath('//*[@id="icon"]').click()
 # e pronto objetivo concluído
 #eu prefiro o pyautogui mas o selenium é bom, mais rapido e mais preciso.
 #o pyautogui é mais facil de se pegar ja o selenium é uma leitura mais complicada
-# se possivel assista a um video vai ser mais facil
+# se possível assista a um video vai ser mais facile
 
