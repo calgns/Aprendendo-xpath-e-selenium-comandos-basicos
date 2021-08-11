@@ -11,10 +11,10 @@ navegador.get("https://www.youtube.com/")
 # aperte as teclas ctrl + shift + c e utilizando o botão esquerdo do mouse você clica encima da biblioteca
 # quando você clicar o código do lado direito vai ficar azul entoa com o lado direito do mouse você
 #clica nesse azul e vai em copy depois em copy Xpath o penúltimo e pronto
-#o meu deu. (de ctrl+c) //*[@id="icon"]
+#o meu deu. (de ctrl+c) //*[@id="guide-icon"]
 #sempre com aspas simples de fora com aspas duplas pode dar error
 #.find_element_by_xpath vai encontrar o xpath  e click no final vai clicar
-navegador.find_element_by_xpath('//*[@id="icon"]').click()
+navegador.find_element_by_xpath('//*[@id="guide-icon"]').click()  
 # e pronto objetivo concluído
 #eu prefiro o pyautogui mas o selenium é bom, mais rapido e mais preciso.
 #o pyautogui é mais facil de se pegar ja o selenium é uma leitura mais complicada
